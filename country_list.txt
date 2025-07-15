@@ -1,0 +1,20 @@
+1: USA flag
+2: United Kingdom flag
+3: France
+4: Germany
+5: Italy
+6: Spain
+7: Japan
+8: China
+9: Australia
+10: Canada
+11: Brazil
+12: India
+13: Russia
+14: South Africa
+15: Mexico
+16: Argentina
+17: Egypt
+18: Turkey
+19: Greece
+20: Thailand

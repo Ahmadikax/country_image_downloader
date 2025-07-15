@@ -1,0 +1,2522 @@
+2025-07-15 19:03:21,983 - INFO - Country Image Downloader v1.0.0
+2025-07-15 19:03:21,983 - INFO - Output directory: images
+2025-07-15 19:03:21,984 - INFO - Initializing Chrome WebDriver...
+2025-07-15 19:03:21,984 - INFO - ====== WebDriver manager ======
+2025-07-15 19:03:23,368 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:03:23,449 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:03:23,494 - INFO - There is no [win64] chromedriver "138.0.7204.94" for browser google-chrome "138.0.7204" in cache
+2025-07-15 19:03:23,495 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:03:23,794 - INFO - WebDriver version 138.0.7204.94 selected
+2025-07-15 19:03:23,799 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.94/win32/chromedriver-win32.zip
+2025-07-15 19:03:23,799 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.94/win32/chromedriver-win32.zip
+2025-07-15 19:03:23,967 - INFO - Driver downloading response is 200
+2025-07-15 19:03:24,968 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:03:25,222 - INFO - Driver has been saved in cache [C:\Users\Ahmed\.wdm\drivers\chromedriver\win64\138.0.7204.94]
+2025-07-15 19:03:28,066 - INFO - WebDriver initialized successfully
+2025-07-15 19:03:28,083 - INFO - Reading country list from file: country_list.txt
+2025-07-15 19:03:28,085 - INFO - Found 20 lines in the country list file.
+2025-07-15 19:03:28,087 - INFO - Processed 20 countries from the file.
+2025-07-15 19:03:28,088 - INFO - Found 20 countries to process
+2025-07-15 19:03:28,088 - INFO - Downloading images for country: United States (ID: 1)
+2025-07-15 19:03:28,089 - INFO - Images will be saved to: images\1_United States
+2025-07-15 19:03:28,102 - INFO - Loading search page for United States...
+2025-07-15 19:03:30,460 - INFO - Waiting for page to load...
+2025-07-15 19:03:35,291 - INFO - Extracting images...
+2025-07-15 19:03:35,291 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:03:35,323 - INFO - Found 0 images in search results
+2025-07-15 19:03:35,327 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:03:46,304 - INFO - Found 169 images in page content
+2025-07-15 19:03:46,304 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:03:46,319 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:03:46,319 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:04:03,516 - INFO - Found 90 images in embedded JSON data
+2025-07-15 19:04:03,525 - INFO - Limiting to 10 images
+2025-07-15 19:04:03,526 - INFO - Downloading 10 images...
+2025-07-15 19:04:12,044 - INFO - Downloaded 6 images for United States to images\1_United States
+2025-07-15 19:04:12,045 - INFO - Creating ZIP file...
+2025-07-15 19:04:12,175 - INFO - ZIP file created: images\1_United States_images.zip
+2025-07-15 19:04:12,175 - INFO - Download completed. 6 images downloaded for United States.
+2025-07-15 19:04:12,177 - INFO - Downloading images for country: United Kingdom (ID: 2)
+2025-07-15 19:04:12,192 - INFO - Images will be saved to: images\2_United Kingdom
+2025-07-15 19:04:12,192 - INFO - Loading search page for United Kingdom...
+2025-07-15 19:04:13,407 - INFO - Waiting for page to load...
+2025-07-15 19:04:17,751 - INFO - Extracting images...
+2025-07-15 19:04:17,752 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:04:17,920 - INFO - Found 0 images in search results
+2025-07-15 19:04:17,921 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:04:44,798 - INFO - Found 175 images in page content
+2025-07-15 19:04:44,798 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:04:44,812 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:04:44,812 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:05:06,490 - INFO - Found 89 images in embedded JSON data
+2025-07-15 19:05:06,566 - INFO - Limiting to 10 images
+2025-07-15 19:05:06,578 - INFO - Downloading 10 images...
+2025-07-15 19:05:17,769 - INFO - Downloaded 10 images for United Kingdom to images\2_United Kingdom
+2025-07-15 19:05:17,770 - INFO - Creating ZIP file...
+2025-07-15 19:05:18,281 - INFO - ZIP file created: images\2_United Kingdom_images.zip
+2025-07-15 19:05:18,281 - INFO - Download completed. 10 images downloaded for United Kingdom.
+2025-07-15 19:05:18,281 - INFO - Downloading images for country: France (ID: 3)
+2025-07-15 19:05:18,282 - INFO - Images will be saved to: images\3_France
+2025-07-15 19:05:18,282 - INFO - Loading search page for France...
+2025-07-15 19:05:19,511 - INFO - Waiting for page to load...
+2025-07-15 19:05:23,809 - INFO - Extracting images...
+2025-07-15 19:05:23,809 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:05:23,856 - INFO - Found 0 images in search results
+2025-07-15 19:05:23,856 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:05:29,737 - INFO - Found 139 images in page content
+2025-07-15 19:05:29,738 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:05:29,741 - WARNING - Error extracting images from JSON-LD: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,746 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:05:29,746 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:05:29,749 - WARNING - Error extracting images from embedded JSON: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,750 - INFO - Found 0 images in embedded JSON data
+2025-07-15 19:05:29,755 - INFO - Downloading 0 images...
+2025-07-15 19:05:29,756 - INFO - Downloaded 0 images for France to images\3_France
+2025-07-15 19:05:29,756 - INFO - Creating ZIP file...
+2025-07-15 19:05:29,758 - INFO - ZIP file created: images\3_France_images.zip
+2025-07-15 19:05:29,758 - INFO - Download completed. 0 images downloaded for France.
+2025-07-15 19:05:29,760 - INFO - Downloading images for country: Germany (ID: 4)
+2025-07-15 19:05:29,765 - INFO - Images will be saved to: images\4_Germany
+2025-07-15 19:05:29,766 - INFO - Loading search page for Germany...
+2025-07-15 19:05:29,769 - ERROR - Error downloading images for Germany: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,770 - INFO - Downloading images for country: Italy (ID: 5)
+2025-07-15 19:05:29,771 - INFO - Images will be saved to: images\5_Italy
+2025-07-15 19:05:29,772 - INFO - Loading search page for Italy...
+2025-07-15 19:05:29,774 - ERROR - Error downloading images for Italy: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,775 - INFO - Downloading images for country: Spain (ID: 6)
+2025-07-15 19:05:29,783 - INFO - Images will be saved to: images\6_Spain
+2025-07-15 19:05:29,783 - INFO - Loading search page for Spain...
+2025-07-15 19:05:29,786 - ERROR - Error downloading images for Spain: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,787 - INFO - Downloading images for country: Japan (ID: 7)
+2025-07-15 19:05:29,788 - INFO - Images will be saved to: images\7_Japan
+2025-07-15 19:05:29,788 - INFO - Loading search page for Japan...
+2025-07-15 19:05:29,791 - ERROR - Error downloading images for Japan: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,792 - INFO - Downloading images for country: China (ID: 8)
+2025-07-15 19:05:29,794 - INFO - Images will be saved to: images\8_China
+2025-07-15 19:05:29,794 - INFO - Loading search page for China...
+2025-07-15 19:05:29,796 - ERROR - Error downloading images for China: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,797 - INFO - Downloading images for country: Australia (ID: 9)
+2025-07-15 19:05:29,799 - INFO - Images will be saved to: images\9_Australia
+2025-07-15 19:05:29,799 - INFO - Loading search page for Australia...
+2025-07-15 19:05:29,802 - ERROR - Error downloading images for Australia: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,803 - INFO - Downloading images for country: Canada (ID: 10)
+2025-07-15 19:05:29,804 - INFO - Images will be saved to: images\10_Canada
+2025-07-15 19:05:29,804 - INFO - Loading search page for Canada...
+2025-07-15 19:05:29,807 - ERROR - Error downloading images for Canada: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,812 - INFO - Downloading images for country: Brazil (ID: 11)
+2025-07-15 19:05:29,813 - INFO - Images will be saved to: images\11_Brazil
+2025-07-15 19:05:29,814 - INFO - Loading search page for Brazil...
+2025-07-15 19:05:29,816 - ERROR - Error downloading images for Brazil: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,817 - INFO - Downloading images for country: India (ID: 12)
+2025-07-15 19:05:29,818 - INFO - Images will be saved to: images\12_India
+2025-07-15 19:05:29,818 - INFO - Loading search page for India...
+2025-07-15 19:05:29,820 - ERROR - Error downloading images for India: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,821 - INFO - Downloading images for country: Russia (ID: 13)
+2025-07-15 19:05:29,829 - INFO - Images will be saved to: images\13_Russia
+2025-07-15 19:05:29,829 - INFO - Loading search page for Russia...
+2025-07-15 19:05:29,832 - ERROR - Error downloading images for Russia: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,833 - INFO - Downloading images for country: South Africa (ID: 14)
+2025-07-15 19:05:29,834 - INFO - Images will be saved to: images\14_South Africa
+2025-07-15 19:05:29,834 - INFO - Loading search page for South Africa...
+2025-07-15 19:05:29,837 - ERROR - Error downloading images for South Africa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,839 - INFO - Downloading images for country: Mexico (ID: 15)
+2025-07-15 19:05:29,848 - INFO - Images will be saved to: images\15_Mexico
+2025-07-15 19:05:29,849 - INFO - Loading search page for Mexico...
+2025-07-15 19:05:29,851 - ERROR - Error downloading images for Mexico: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,852 - INFO - Downloading images for country: Argentina (ID: 16)
+2025-07-15 19:05:29,854 - INFO - Images will be saved to: images\16_Argentina
+2025-07-15 19:05:29,854 - INFO - Loading search page for Argentina...
+2025-07-15 19:05:29,856 - ERROR - Error downloading images for Argentina: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,856 - INFO - Downloading images for country: Egypt (ID: 17)
+2025-07-15 19:05:29,857 - INFO - Images will be saved to: images\17_Egypt
+2025-07-15 19:05:29,858 - INFO - Loading search page for Egypt...
+2025-07-15 19:05:29,861 - ERROR - Error downloading images for Egypt: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,865 - INFO - Downloading images for country: Turkey (ID: 18)
+2025-07-15 19:05:29,865 - INFO - Images will be saved to: images\18_Turkey
+2025-07-15 19:05:29,866 - INFO - Loading search page for Turkey...
+2025-07-15 19:05:29,868 - ERROR - Error downloading images for Turkey: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,869 - INFO - Downloading images for country: Greece (ID: 19)
+2025-07-15 19:05:29,870 - INFO - Images will be saved to: images\19_Greece
+2025-07-15 19:05:29,870 - INFO - Loading search page for Greece...
+2025-07-15 19:05:29,872 - ERROR - Error downloading images for Greece: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,873 - INFO - Downloading images for country: Thailand (ID: 20)
+2025-07-15 19:05:29,874 - INFO - Images will be saved to: images\20_Thailand
+2025-07-15 19:05:29,874 - INFO - Loading search page for Thailand...
+2025-07-15 19:05:29,877 - ERROR - Error downloading images for Thailand: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x2f0fd9]
+	(No symbol) [0x0x385b9e]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:05:29,880 - INFO - Download completed. Total images downloaded: 16
+2025-07-15 19:05:33,029 - INFO - WebDriver closed
+2025-07-15 19:07:21,855 - INFO - Country Image Downloader v1.0.0
+2025-07-15 19:07:21,856 - INFO - Output directory: images
+2025-07-15 19:07:21,856 - INFO - Initializing Chrome WebDriver...
+2025-07-15 19:07:21,856 - INFO - ====== WebDriver manager ======
+2025-07-15 19:07:23,043 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:07:23,165 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:07:23,286 - INFO - Driver [C:\Users\Ahmed\.wdm\drivers\chromedriver\win64\138.0.7204.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-15 19:07:24,516 - INFO - WebDriver initialized successfully
+2025-07-15 19:07:24,517 - INFO - Reading country list from file: country_list.txt
+2025-07-15 19:07:24,517 - INFO - Found 20 lines in the country list file.
+2025-07-15 19:07:24,518 - INFO - Processed 20 countries from the file.
+2025-07-15 19:07:24,518 - INFO - Found 20 countries to process
+2025-07-15 19:07:24,519 - INFO - Downloading images for country: United States (ID: 1)
+2025-07-15 19:07:24,521 - INFO - Images will be saved to: images\1_United States
+2025-07-15 19:07:24,521 - INFO - Loading search page for United States...
+2025-07-15 19:07:26,089 - INFO - Waiting for page to load...
+2025-07-15 19:07:56,427 - WARNING - Timeout waiting for page to load
+2025-07-15 19:07:56,427 - INFO - Extracting images...
+2025-07-15 19:07:56,428 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:07:56,444 - INFO - Found 0 images in search results
+2025-07-15 19:07:56,444 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:07:56,456 - INFO - Found 0 images in page content
+2025-07-15 19:07:56,456 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:07:56,469 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:07:56,470 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:07:56,508 - INFO - Found 0 images in embedded JSON data
+2025-07-15 19:07:56,508 - INFO - Downloading 0 images...
+2025-07-15 19:07:56,522 - INFO - Downloaded 0 images for United States to images\1_United States
+2025-07-15 19:07:56,523 - INFO - Creating ZIP file...
+2025-07-15 19:07:56,623 - INFO - ZIP file created: images\1_United States_images.zip
+2025-07-15 19:07:56,623 - INFO - Download completed. 0 images downloaded for United States.
+2025-07-15 19:07:56,624 - INFO - Downloading images for country: United Kingdom (ID: 2)
+2025-07-15 19:07:56,629 - INFO - Images will be saved to: images\2_United Kingdom
+2025-07-15 19:07:56,629 - INFO - Loading search page for United Kingdom...
+2025-07-15 19:07:57,616 - INFO - Waiting for page to load...
+2025-07-15 19:08:27,831 - WARNING - Timeout waiting for page to load
+2025-07-15 19:08:27,832 - INFO - Extracting images...
+2025-07-15 19:08:27,834 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:08:27,844 - INFO - Found 0 images in search results
+2025-07-15 19:08:27,844 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:08:27,853 - INFO - Found 0 images in page content
+2025-07-15 19:08:27,854 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:08:27,863 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:08:27,863 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:08:27,895 - INFO - Found 0 images in embedded JSON data
+2025-07-15 19:08:27,895 - INFO - Downloading 0 images...
+2025-07-15 19:08:27,901 - INFO - Downloaded 0 images for United Kingdom to images\2_United Kingdom
+2025-07-15 19:08:27,901 - INFO - Creating ZIP file...
+2025-07-15 19:08:28,094 - INFO - ZIP file created: images\2_United Kingdom_images.zip
+2025-07-15 19:08:28,094 - INFO - Download completed. 0 images downloaded for United Kingdom.
+2025-07-15 19:08:28,095 - INFO - Downloading images for country: France (ID: 3)
+2025-07-15 19:08:28,100 - INFO - Images will be saved to: images\3_France
+2025-07-15 19:08:28,100 - INFO - Loading search page for France...
+2025-07-15 19:08:30,288 - INFO - Waiting for page to load...
+2025-07-15 19:08:34,620 - INFO - Extracting images...
+2025-07-15 19:08:34,641 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:08:34,693 - INFO - Found 0 images in search results
+2025-07-15 19:08:34,698 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:08:41,409 - INFO - Found 149 images in page content
+2025-07-15 19:08:41,409 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:08:41,419 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:08:41,420 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:08:53,358 - INFO - Found 95 images in embedded JSON data
+2025-07-15 19:08:53,361 - INFO - Limiting to 10 images
+2025-07-15 19:08:53,362 - INFO - Downloading 10 images...
+2025-07-15 19:11:08,413 - INFO - Country Image Downloader v1.0.0
+2025-07-15 19:11:08,413 - INFO - Output directory: images
+2025-07-15 19:11:08,414 - INFO - Initializing Chrome WebDriver...
+2025-07-15 19:11:08,414 - INFO - ====== WebDriver manager ======
+2025-07-15 19:11:09,556 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:11:09,609 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:11:09,724 - INFO - Driver [C:\Users\Ahmed\.wdm\drivers\chromedriver\win64\138.0.7204.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-15 19:11:10,935 - INFO - WebDriver initialized successfully
+2025-07-15 19:11:10,935 - INFO - Reading country list from file: country_list.txt
+2025-07-15 19:11:10,936 - INFO - Found 20 lines in the country list file.
+2025-07-15 19:11:10,936 - INFO - Processed 20 countries from the file.
+2025-07-15 19:11:10,937 - INFO - Found 20 countries to process
+2025-07-15 19:11:10,937 - INFO - Downloading images for country: United States flag (ID: 1)
+2025-07-15 19:11:10,938 - INFO - Images will be saved to: images\1_United States flag
+2025-07-15 19:11:10,938 - INFO - Loading search page for United States flag...
+2025-07-15 19:11:11,229 - INFO - Waiting for page to load...
+2025-07-15 19:11:17,147 - INFO - Extracting images...
+2025-07-15 19:11:17,159 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:11:17,181 - INFO - Found 0 images in search results
+2025-07-15 19:11:17,181 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:11:24,549 - INFO - Found 169 images in page content
+2025-07-15 19:11:24,549 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:11:24,560 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:11:24,560 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:11:36,869 - INFO - Found 91 images in embedded JSON data
+2025-07-15 19:12:10,806 - INFO - Country Image Downloader v1.0.0
+2025-07-15 19:12:10,806 - INFO - Output directory: images
+2025-07-15 19:12:10,807 - INFO - Initializing Chrome WebDriver...
+2025-07-15 19:12:10,807 - INFO - ====== WebDriver manager ======
+2025-07-15 19:12:12,026 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:12:12,078 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:12:12,125 - INFO - Driver [C:\Users\Ahmed\.wdm\drivers\chromedriver\win64\138.0.7204.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-15 19:12:13,367 - INFO - WebDriver initialized successfully
+2025-07-15 19:12:13,367 - INFO - Reading country list from file: country_list.txt
+2025-07-15 19:12:13,367 - INFO - Found 20 lines in the country list file.
+2025-07-15 19:12:13,368 - INFO - Processed 20 countries from the file.
+2025-07-15 19:12:13,368 - INFO - Found 20 countries to process
+2025-07-15 19:12:13,368 - INFO - Downloading images for country: United States flag (ID: 1)
+2025-07-15 19:12:13,369 - INFO - Images will be saved to: images\1_United States flag
+2025-07-15 19:12:13,369 - INFO - Loading search page for United States flag...
+2025-07-15 19:12:15,385 - INFO - Waiting for page to load...
+2025-07-15 19:12:19,584 - INFO - Extracting images...
+2025-07-15 19:12:19,584 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:12:19,649 - INFO - Found 0 images in search results
+2025-07-15 19:12:19,651 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:12:25,995 - INFO - Found 172 images in page content
+2025-07-15 19:12:25,996 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:12:26,008 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:12:26,008 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:12:38,297 - INFO - Found 89 images in embedded JSON data
+2025-07-15 19:12:38,299 - INFO - Limiting to 10 images
+2025-07-15 19:12:38,299 - INFO - Downloading 10 images...
+2025-07-15 19:12:54,452 - INFO - Downloaded 9 images for United States flag to images\1_United States flag
+2025-07-15 19:12:54,453 - INFO - Creating ZIP file...
+2025-07-15 19:12:54,570 - INFO - ZIP file created: images\1_United States flag_images.zip
+2025-07-15 19:12:54,570 - INFO - Download completed. 9 images downloaded for United States flag.
+2025-07-15 19:12:54,570 - INFO - Downloading images for country: United Kingdom flag (ID: 2)
+2025-07-15 19:12:54,571 - INFO - Images will be saved to: images\2_United Kingdom flag
+2025-07-15 19:12:54,571 - INFO - Loading search page for United Kingdom flag...
+2025-07-15 19:12:55,954 - INFO - Waiting for page to load...
+2025-07-15 19:13:00,048 - INFO - Extracting images...
+2025-07-15 19:13:00,048 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:13:00,056 - INFO - Found 0 images in search results
+2025-07-15 19:13:00,056 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:13:02,972 - INFO - Found 28 images in page content
+2025-07-15 19:13:02,972 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:13:02,981 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:13:02,981 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:13:17,958 - INFO - Found 94 images in embedded JSON data
+2025-07-15 19:13:17,961 - INFO - Limiting to 10 images
+2025-07-15 19:13:17,961 - INFO - Downloading 10 images...
+2025-07-15 19:13:22,817 - INFO - Downloaded 10 images for United Kingdom flag to images\2_United Kingdom flag
+2025-07-15 19:13:22,818 - INFO - Creating ZIP file...
+2025-07-15 19:13:22,903 - INFO - ZIP file created: images\2_United Kingdom flag_images.zip
+2025-07-15 19:13:22,904 - INFO - Download completed. 10 images downloaded for United Kingdom flag.
+2025-07-15 19:13:22,905 - INFO - Downloading images for country: France (ID: 3)
+2025-07-15 19:13:22,909 - INFO - Images will be saved to: images\3_France
+2025-07-15 19:13:22,910 - INFO - Loading search page for France...
+2025-07-15 19:13:22,912 - ERROR - Error downloading images for France: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.51); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x301b40]
+	(No symbol) [0x0x31f912]
+	(No symbol) [0x0x385d6c]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:22,913 - INFO - Downloading images for country: Germany (ID: 4)
+2025-07-15 19:13:22,914 - INFO - Images will be saved to: images\4_Germany
+2025-07-15 19:13:22,914 - INFO - Loading search page for Germany...
+2025-07-15 19:13:22,992 - ERROR - Error downloading images for Germany: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:22,992 - INFO - Downloading images for country: Italy (ID: 5)
+2025-07-15 19:13:22,996 - INFO - Images will be saved to: images\5_Italy
+2025-07-15 19:13:22,997 - INFO - Loading search page for Italy...
+2025-07-15 19:13:23,000 - ERROR - Error downloading images for Italy: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,000 - INFO - Downloading images for country: Spain (ID: 6)
+2025-07-15 19:13:23,001 - INFO - Images will be saved to: images\6_Spain
+2025-07-15 19:13:23,001 - INFO - Loading search page for Spain...
+2025-07-15 19:13:23,003 - ERROR - Error downloading images for Spain: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,004 - INFO - Downloading images for country: Japan (ID: 7)
+2025-07-15 19:13:23,005 - INFO - Images will be saved to: images\7_Japan
+2025-07-15 19:13:23,005 - INFO - Loading search page for Japan...
+2025-07-15 19:13:23,007 - ERROR - Error downloading images for Japan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,008 - INFO - Downloading images for country: China (ID: 8)
+2025-07-15 19:13:23,009 - INFO - Images will be saved to: images\8_China
+2025-07-15 19:13:23,009 - INFO - Loading search page for China...
+2025-07-15 19:13:23,011 - ERROR - Error downloading images for China: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,012 - INFO - Downloading images for country: Australia (ID: 9)
+2025-07-15 19:13:23,012 - INFO - Images will be saved to: images\9_Australia
+2025-07-15 19:13:23,013 - INFO - Loading search page for Australia...
+2025-07-15 19:13:23,015 - ERROR - Error downloading images for Australia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,016 - INFO - Downloading images for country: Canada (ID: 10)
+2025-07-15 19:13:23,017 - INFO - Images will be saved to: images\10_Canada
+2025-07-15 19:13:23,020 - INFO - Loading search page for Canada...
+2025-07-15 19:13:23,022 - ERROR - Error downloading images for Canada: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,023 - INFO - Downloading images for country: Brazil (ID: 11)
+2025-07-15 19:13:23,025 - INFO - Images will be saved to: images\11_Brazil
+2025-07-15 19:13:23,025 - INFO - Loading search page for Brazil...
+2025-07-15 19:13:23,027 - ERROR - Error downloading images for Brazil: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,027 - INFO - Downloading images for country: India (ID: 12)
+2025-07-15 19:13:23,028 - INFO - Images will be saved to: images\12_India
+2025-07-15 19:13:23,029 - INFO - Loading search page for India...
+2025-07-15 19:13:23,030 - ERROR - Error downloading images for India: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,032 - INFO - Downloading images for country: Russia (ID: 13)
+2025-07-15 19:13:23,033 - INFO - Images will be saved to: images\13_Russia
+2025-07-15 19:13:23,037 - INFO - Loading search page for Russia...
+2025-07-15 19:13:23,039 - ERROR - Error downloading images for Russia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,039 - INFO - Downloading images for country: South Africa (ID: 14)
+2025-07-15 19:13:23,040 - INFO - Images will be saved to: images\14_South Africa
+2025-07-15 19:13:23,041 - INFO - Loading search page for South Africa...
+2025-07-15 19:13:23,043 - ERROR - Error downloading images for South Africa: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,043 - INFO - Downloading images for country: Mexico (ID: 15)
+2025-07-15 19:13:23,044 - INFO - Images will be saved to: images\15_Mexico
+2025-07-15 19:13:23,044 - INFO - Loading search page for Mexico...
+2025-07-15 19:13:23,046 - ERROR - Error downloading images for Mexico: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,047 - INFO - Downloading images for country: Argentina (ID: 16)
+2025-07-15 19:13:23,048 - INFO - Images will be saved to: images\16_Argentina
+2025-07-15 19:13:23,052 - INFO - Loading search page for Argentina...
+2025-07-15 19:13:23,054 - ERROR - Error downloading images for Argentina: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,055 - INFO - Downloading images for country: Egypt (ID: 17)
+2025-07-15 19:13:23,056 - INFO - Images will be saved to: images\17_Egypt
+2025-07-15 19:13:23,056 - INFO - Loading search page for Egypt...
+2025-07-15 19:13:23,058 - ERROR - Error downloading images for Egypt: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,059 - INFO - Downloading images for country: Turkey (ID: 18)
+2025-07-15 19:13:23,060 - INFO - Images will be saved to: images\18_Turkey
+2025-07-15 19:13:23,060 - INFO - Loading search page for Turkey...
+2025-07-15 19:13:23,062 - ERROR - Error downloading images for Turkey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,063 - INFO - Downloading images for country: Greece (ID: 19)
+2025-07-15 19:13:23,064 - INFO - Images will be saved to: images\19_Greece
+2025-07-15 19:13:23,069 - INFO - Loading search page for Greece...
+2025-07-15 19:13:23,072 - ERROR - Error downloading images for Greece: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,073 - INFO - Downloading images for country: Thailand (ID: 20)
+2025-07-15 19:13:23,074 - INFO - Images will be saved to: images\20_Thailand
+2025-07-15 19:13:23,074 - INFO - Loading search page for Thailand...
+2025-07-15 19:13:23,076 - ERROR - Error downloading images for Thailand: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:13:23,077 - INFO - Download completed. Total images downloaded: 19
+2025-07-15 19:13:25,122 - INFO - WebDriver closed
+2025-07-15 19:14:01,004 - INFO - Country Image Downloader v1.0.0
+2025-07-15 19:14:01,004 - INFO - Output directory: images
+2025-07-15 19:14:01,004 - INFO - Initializing Chrome WebDriver...
+2025-07-15 19:14:01,004 - INFO - ====== WebDriver manager ======
+2025-07-15 19:14:02,219 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:14:02,270 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:14:02,376 - INFO - Driver [C:\Users\Ahmed\.wdm\drivers\chromedriver\win64\138.0.7204.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-15 19:14:03,717 - INFO - WebDriver initialized successfully
+2025-07-15 19:14:03,717 - INFO - Reading country list from file: country_list.txt
+2025-07-15 19:14:03,717 - INFO - Found 20 lines in the country list file.
+2025-07-15 19:14:03,718 - INFO - Processed 20 countries from the file.
+2025-07-15 19:14:03,718 - INFO - Found 20 countries to process
+2025-07-15 19:14:03,718 - INFO - Downloading images for country: test (ID: 1)
+2025-07-15 19:14:03,719 - INFO - Images will be saved to: images\1_test
+2025-07-15 19:14:03,719 - INFO - Loading search page for test...
+2025-07-15 19:14:05,781 - INFO - Waiting for page to load...
+2025-07-15 19:14:36,106 - WARNING - Timeout waiting for page to load
+2025-07-15 19:14:36,106 - INFO - Extracting images...
+2025-07-15 19:14:36,106 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:14:36,117 - INFO - Found 0 images in search results
+2025-07-15 19:14:36,118 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:14:36,129 - INFO - Found 0 images in page content
+2025-07-15 19:14:36,130 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:14:36,141 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:14:36,141 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:14:36,176 - INFO - Found 0 images in embedded JSON data
+2025-07-15 19:14:36,176 - INFO - Downloading 0 images...
+2025-07-15 19:14:36,189 - INFO - Downloaded 0 images for test to images\1_test
+2025-07-15 19:14:36,189 - INFO - Creating ZIP file...
+2025-07-15 19:14:36,192 - INFO - ZIP file created: images\1_test_images.zip
+2025-07-15 19:14:36,192 - INFO - Download completed. 0 images downloaded for test.
+2025-07-15 19:14:36,193 - INFO - Downloading images for country: United Kingdom flag (ID: 2)
+2025-07-15 19:14:36,194 - INFO - Images will be saved to: images\2_United Kingdom flag
+2025-07-15 19:14:36,196 - INFO - Loading search page for United Kingdom flag...
+2025-07-15 19:14:37,550 - INFO - Waiting for page to load...
+2025-07-15 19:15:07,873 - WARNING - Timeout waiting for page to load
+2025-07-15 19:15:07,874 - INFO - Extracting images...
+2025-07-15 19:15:07,877 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:15:07,895 - INFO - Found 0 images in search results
+2025-07-15 19:15:07,896 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:15:07,905 - INFO - Found 0 images in page content
+2025-07-15 19:15:07,906 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:15:07,914 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:15:07,914 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:15:07,945 - INFO - Found 0 images in embedded JSON data
+2025-07-15 19:15:07,946 - INFO - Downloading 0 images...
+2025-07-15 19:15:07,948 - INFO - Downloaded 0 images for United Kingdom flag to images\2_United Kingdom flag
+2025-07-15 19:15:07,952 - INFO - Creating ZIP file...
+2025-07-15 19:15:07,953 - INFO - ZIP file created: images\2_United Kingdom flag_images.zip
+2025-07-15 19:15:07,954 - INFO - Download completed. 0 images downloaded for United Kingdom flag.
+2025-07-15 19:15:07,954 - INFO - Downloading images for country: France (ID: 3)
+2025-07-15 19:15:07,955 - INFO - Images will be saved to: images\3_France
+2025-07-15 19:15:07,955 - INFO - Loading search page for France...
+2025-07-15 19:15:08,975 - INFO - Waiting for page to load...
+2025-07-15 19:15:39,474 - WARNING - Timeout waiting for page to load
+2025-07-15 19:15:39,475 - INFO - Extracting images...
+2025-07-15 19:15:39,477 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:15:39,491 - INFO - Found 0 images in search results
+2025-07-15 19:15:39,491 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:15:39,500 - INFO - Found 0 images in page content
+2025-07-15 19:15:39,501 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:15:39,510 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:15:39,511 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:15:39,542 - INFO - Found 0 images in embedded JSON data
+2025-07-15 19:15:39,543 - INFO - Downloading 0 images...
+2025-07-15 19:15:39,545 - INFO - Downloaded 0 images for France to images\3_France
+2025-07-15 19:15:39,548 - INFO - Creating ZIP file...
+2025-07-15 19:15:39,550 - INFO - ZIP file created: images\3_France_images.zip
+2025-07-15 19:15:39,550 - INFO - Download completed. 0 images downloaded for France.
+2025-07-15 19:15:39,552 - INFO - Downloading images for country: Germany (ID: 4)
+2025-07-15 19:15:39,553 - INFO - Images will be saved to: images\4_Germany
+2025-07-15 19:15:39,553 - INFO - Loading search page for Germany...
+2025-07-15 19:15:40,465 - INFO - Waiting for page to load...
+2025-07-15 19:15:42,047 - WARNING - Error waiting for page to load: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.51); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x312133]
+	(No symbol) [0x0x301b40]
+	(No symbol) [0x0x31f912]
+	(No symbol) [0x0x385d6c]
+	(No symbol) [0x0x3a0159]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,049 - INFO - Extracting images...
+2025-07-15 19:15:42,062 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:15:42,153 - WARNING - Error extracting images from search results: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,154 - INFO - Found 0 images in search results
+2025-07-15 19:15:42,157 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:15:42,160 - WARNING - Error extracting images from page content: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,161 - INFO - Found 0 images in page content
+2025-07-15 19:15:42,161 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:15:42,163 - WARNING - Error extracting images from JSON-LD: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,164 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:15:42,164 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:15:42,166 - WARNING - Error extracting images from embedded JSON: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,166 - INFO - Found 0 images in embedded JSON data
+2025-07-15 19:15:42,167 - INFO - Downloading 0 images...
+2025-07-15 19:15:42,169 - INFO - Downloaded 0 images for Germany to images\4_Germany
+2025-07-15 19:15:42,170 - INFO - Creating ZIP file...
+2025-07-15 19:15:42,175 - INFO - ZIP file created: images\4_Germany_images.zip
+2025-07-15 19:15:42,175 - INFO - Download completed. 0 images downloaded for Germany.
+2025-07-15 19:15:42,176 - INFO - Downloading images for country: Italy (ID: 5)
+2025-07-15 19:15:42,177 - INFO - Images will be saved to: images\5_Italy
+2025-07-15 19:15:42,177 - INFO - Loading search page for Italy...
+2025-07-15 19:15:42,179 - ERROR - Error downloading images for Italy: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,180 - INFO - Downloading images for country: Spain (ID: 6)
+2025-07-15 19:15:42,181 - INFO - Images will be saved to: images\6_Spain
+2025-07-15 19:15:42,181 - INFO - Loading search page for Spain...
+2025-07-15 19:15:42,182 - ERROR - Error downloading images for Spain: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,183 - INFO - Downloading images for country: Japan (ID: 7)
+2025-07-15 19:15:42,184 - INFO - Images will be saved to: images\7_Japan
+2025-07-15 19:15:42,184 - INFO - Loading search page for Japan...
+2025-07-15 19:15:42,188 - ERROR - Error downloading images for Japan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,190 - INFO - Downloading images for country: China (ID: 8)
+2025-07-15 19:15:42,191 - INFO - Images will be saved to: images\8_China
+2025-07-15 19:15:42,192 - INFO - Loading search page for China...
+2025-07-15 19:15:42,194 - ERROR - Error downloading images for China: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,194 - INFO - Downloading images for country: Australia (ID: 9)
+2025-07-15 19:15:42,195 - INFO - Images will be saved to: images\9_Australia
+2025-07-15 19:15:42,196 - INFO - Loading search page for Australia...
+2025-07-15 19:15:42,197 - ERROR - Error downloading images for Australia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,198 - INFO - Downloading images for country: Canada (ID: 10)
+2025-07-15 19:15:42,199 - INFO - Images will be saved to: images\10_Canada
+2025-07-15 19:15:42,199 - INFO - Loading search page for Canada...
+2025-07-15 19:15:42,201 - ERROR - Error downloading images for Canada: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,202 - INFO - Downloading images for country: Brazil (ID: 11)
+2025-07-15 19:15:42,207 - INFO - Images will be saved to: images\11_Brazil
+2025-07-15 19:15:42,208 - INFO - Loading search page for Brazil...
+2025-07-15 19:15:42,210 - ERROR - Error downloading images for Brazil: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,210 - INFO - Downloading images for country: India (ID: 12)
+2025-07-15 19:15:42,211 - INFO - Images will be saved to: images\12_India
+2025-07-15 19:15:42,212 - INFO - Loading search page for India...
+2025-07-15 19:15:42,213 - ERROR - Error downloading images for India: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,214 - INFO - Downloading images for country: Russia (ID: 13)
+2025-07-15 19:15:42,215 - INFO - Images will be saved to: images\13_Russia
+2025-07-15 19:15:42,215 - INFO - Loading search page for Russia...
+2025-07-15 19:15:42,217 - ERROR - Error downloading images for Russia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,218 - INFO - Downloading images for country: South Africa (ID: 14)
+2025-07-15 19:15:42,222 - INFO - Images will be saved to: images\14_South Africa
+2025-07-15 19:15:42,223 - INFO - Loading search page for South Africa...
+2025-07-15 19:15:42,225 - ERROR - Error downloading images for South Africa: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,226 - INFO - Downloading images for country: Mexico (ID: 15)
+2025-07-15 19:15:42,227 - INFO - Images will be saved to: images\15_Mexico
+2025-07-15 19:15:42,227 - INFO - Loading search page for Mexico...
+2025-07-15 19:15:42,229 - ERROR - Error downloading images for Mexico: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,230 - INFO - Downloading images for country: Argentina (ID: 16)
+2025-07-15 19:15:42,231 - INFO - Images will be saved to: images\16_Argentina
+2025-07-15 19:15:42,232 - INFO - Loading search page for Argentina...
+2025-07-15 19:15:42,234 - ERROR - Error downloading images for Argentina: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,237 - INFO - Downloading images for country: Egypt (ID: 17)
+2025-07-15 19:15:42,238 - INFO - Images will be saved to: images\17_Egypt
+2025-07-15 19:15:42,239 - INFO - Loading search page for Egypt...
+2025-07-15 19:15:42,241 - ERROR - Error downloading images for Egypt: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,241 - INFO - Downloading images for country: Turkey (ID: 18)
+2025-07-15 19:15:42,242 - INFO - Images will be saved to: images\18_Turkey
+2025-07-15 19:15:42,243 - INFO - Loading search page for Turkey...
+2025-07-15 19:15:42,244 - ERROR - Error downloading images for Turkey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,245 - INFO - Downloading images for country: Greece (ID: 19)
+2025-07-15 19:15:42,246 - INFO - Images will be saved to: images\19_Greece
+2025-07-15 19:15:42,246 - INFO - Loading search page for Greece...
+2025-07-15 19:15:42,248 - ERROR - Error downloading images for Greece: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,249 - INFO - Downloading images for country: Thailand (ID: 20)
+2025-07-15 19:15:42,250 - INFO - Images will be saved to: images\20_Thailand
+2025-07-15 19:15:42,255 - INFO - Loading search page for Thailand...
+2025-07-15 19:15:42,257 - ERROR - Error downloading images for Thailand: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x34db48]
+	(No symbol) [0x0x37f326]
+	(No symbol) [0x0x37af15]
+	(No symbol) [0x0x37a496]
+	(No symbol) [0x0x2e3a45]
+	(No symbol) [0x0x2e3f9e]
+	(No symbol) [0x0x2e442d]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	(No symbol) [0x0x2e3710]
+	(No symbol) [0x0x2e2f1d]
+	GetHandleVerifier [0x0x878aec+3881500]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:15:42,258 - INFO - Download completed. Total images downloaded: 0
+2025-07-15 19:15:44,313 - INFO - WebDriver closed
+2025-07-15 19:15:47,671 - INFO - Country Image Downloader v1.0.0
+2025-07-15 19:15:47,671 - INFO - Output directory: images
+2025-07-15 19:15:47,671 - INFO - Initializing Chrome WebDriver...
+2025-07-15 19:15:47,671 - INFO - ====== WebDriver manager ======
+2025-07-15 19:15:48,889 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:15:48,940 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-15 19:15:48,989 - INFO - Driver [C:\Users\Ahmed\.wdm\drivers\chromedriver\win64\138.0.7204.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-15 19:15:50,241 - INFO - WebDriver initialized successfully
+2025-07-15 19:15:50,241 - INFO - Reading country list from file: country_list.txt
+2025-07-15 19:15:50,242 - INFO - Found 20 lines in the country list file.
+2025-07-15 19:15:50,242 - INFO - Processed 20 countries from the file.
+2025-07-15 19:15:50,242 - INFO - Found 20 countries to process
+2025-07-15 19:15:50,242 - INFO - Downloading images for country: test (ID: 1)
+2025-07-15 19:15:50,243 - INFO - Images will be saved to: images\1_test
+2025-07-15 19:15:50,243 - INFO - Loading search page for test...
+2025-07-15 19:15:52,052 - INFO - Waiting for page to load...
+2025-07-15 19:15:56,182 - INFO - Extracting images...
+2025-07-15 19:15:56,183 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:15:56,216 - INFO - Found 0 images in search results
+2025-07-15 19:15:56,216 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:16:02,521 - INFO - Found 173 images in page content
+2025-07-15 19:16:02,521 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:16:02,533 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:16:02,533 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:16:12,993 - INFO - Found 96 images in embedded JSON data
+2025-07-15 19:16:12,995 - INFO - Limiting to 10 images
+2025-07-15 19:16:12,996 - INFO - Downloading 10 images...
+2025-07-15 19:16:16,959 - INFO - Downloaded 8 images for test to images\1_test
+2025-07-15 19:16:16,972 - INFO - Creating ZIP file...
+2025-07-15 19:16:17,058 - INFO - ZIP file created: images\1_test_images.zip
+2025-07-15 19:16:17,058 - INFO - Download completed. 8 images downloaded for test.
+2025-07-15 19:16:17,059 - INFO - Downloading images for country: United Kingdom flag (ID: 2)
+2025-07-15 19:16:17,063 - INFO - Images will be saved to: images\2_United Kingdom flag
+2025-07-15 19:16:17,064 - INFO - Loading search page for United Kingdom flag...
+2025-07-15 19:16:18,143 - INFO - Waiting for page to load...
+2025-07-15 19:16:23,097 - INFO - Extracting images...
+2025-07-15 19:16:23,097 - INFO - Method 1: Extracting images from search results...
+2025-07-15 19:16:23,115 - INFO - Found 0 images in search results
+2025-07-15 19:16:23,116 - INFO - Method 2: Extracting images from page content...
+2025-07-15 19:16:26,262 - INFO - Found 28 images in page content
+2025-07-15 19:16:26,262 - INFO - Method 3: Extracting images from JSON-LD data...
+2025-07-15 19:16:26,272 - INFO - Found 0 images in JSON-LD data
+2025-07-15 19:16:26,272 - INFO - Method 4: Extracting images from embedded JSON data...
+2025-07-15 19:16:36,071 - INFO - Found 94 images in embedded JSON data
+2025-07-15 19:16:36,074 - INFO - Limiting to 10 images
+2025-07-15 19:16:36,074 - INFO - Downloading 10 images...
+2025-07-15 19:16:39,623 - INFO - Downloaded 7 images for United Kingdom flag to images\2_United Kingdom flag
+2025-07-15 19:16:39,624 - INFO - Creating ZIP file...
+2025-07-15 19:16:39,661 - INFO - ZIP file created: images\2_United Kingdom flag_images.zip
+2025-07-15 19:16:39,661 - INFO - Download completed. 7 images downloaded for United Kingdom flag.
+2025-07-15 19:16:39,662 - INFO - Downloading images for country: France (ID: 3)
+2025-07-15 19:16:39,663 - INFO - Images will be saved to: images\3_France
+2025-07-15 19:16:39,663 - INFO - Loading search page for France...
+2025-07-15 19:16:40,747 - ERROR - Error downloading images for France: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0b5c]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,750 - INFO - Downloading images for country: Germany (ID: 4)
+2025-07-15 19:16:40,753 - INFO - Images will be saved to: images\4_Germany
+2025-07-15 19:16:40,753 - INFO - Loading search page for Germany...
+2025-07-15 19:16:40,755 - ERROR - Error downloading images for Germany: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,756 - INFO - Downloading images for country: Italy (ID: 5)
+2025-07-15 19:16:40,756 - INFO - Images will be saved to: images\5_Italy
+2025-07-15 19:16:40,756 - INFO - Loading search page for Italy...
+2025-07-15 19:16:40,757 - ERROR - Error downloading images for Italy: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,758 - INFO - Downloading images for country: Spain (ID: 6)
+2025-07-15 19:16:40,759 - INFO - Images will be saved to: images\6_Spain
+2025-07-15 19:16:40,759 - INFO - Loading search page for Spain...
+2025-07-15 19:16:40,760 - ERROR - Error downloading images for Spain: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,760 - INFO - Downloading images for country: Japan (ID: 7)
+2025-07-15 19:16:40,761 - INFO - Images will be saved to: images\7_Japan
+2025-07-15 19:16:40,761 - INFO - Loading search page for Japan...
+2025-07-15 19:16:40,763 - ERROR - Error downloading images for Japan: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,765 - INFO - Downloading images for country: China (ID: 8)
+2025-07-15 19:16:40,766 - INFO - Images will be saved to: images\8_China
+2025-07-15 19:16:40,766 - INFO - Loading search page for China...
+2025-07-15 19:16:40,768 - ERROR - Error downloading images for China: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,768 - INFO - Downloading images for country: Australia (ID: 9)
+2025-07-15 19:16:40,769 - INFO - Images will be saved to: images\9_Australia
+2025-07-15 19:16:40,769 - INFO - Loading search page for Australia...
+2025-07-15 19:16:40,770 - ERROR - Error downloading images for Australia: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,771 - INFO - Downloading images for country: Canada (ID: 10)
+2025-07-15 19:16:40,771 - INFO - Images will be saved to: images\10_Canada
+2025-07-15 19:16:40,772 - INFO - Loading search page for Canada...
+2025-07-15 19:16:40,773 - ERROR - Error downloading images for Canada: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,774 - INFO - Downloading images for country: Brazil (ID: 11)
+2025-07-15 19:16:40,774 - INFO - Images will be saved to: images\11_Brazil
+2025-07-15 19:16:40,774 - INFO - Loading search page for Brazil...
+2025-07-15 19:16:40,775 - ERROR - Error downloading images for Brazil: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,776 - INFO - Downloading images for country: India (ID: 12)
+2025-07-15 19:16:40,776 - INFO - Images will be saved to: images\12_India
+2025-07-15 19:16:40,777 - INFO - Loading search page for India...
+2025-07-15 19:16:40,778 - ERROR - Error downloading images for India: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,781 - INFO - Downloading images for country: Russia (ID: 13)
+2025-07-15 19:16:40,782 - INFO - Images will be saved to: images\13_Russia
+2025-07-15 19:16:40,782 - INFO - Loading search page for Russia...
+2025-07-15 19:16:40,784 - ERROR - Error downloading images for Russia: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,784 - INFO - Downloading images for country: South Africa (ID: 14)
+2025-07-15 19:16:40,785 - INFO - Images will be saved to: images\14_South Africa
+2025-07-15 19:16:40,785 - INFO - Loading search page for South Africa...
+2025-07-15 19:16:40,786 - ERROR - Error downloading images for South Africa: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,787 - INFO - Downloading images for country: Mexico (ID: 15)
+2025-07-15 19:16:40,787 - INFO - Images will be saved to: images\15_Mexico
+2025-07-15 19:16:40,787 - INFO - Loading search page for Mexico...
+2025-07-15 19:16:40,789 - ERROR - Error downloading images for Mexico: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,789 - INFO - Downloading images for country: Argentina (ID: 16)
+2025-07-15 19:16:40,790 - INFO - Images will be saved to: images\16_Argentina
+2025-07-15 19:16:40,790 - INFO - Loading search page for Argentina...
+2025-07-15 19:16:40,791 - ERROR - Error downloading images for Argentina: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,792 - INFO - Downloading images for country: Egypt (ID: 17)
+2025-07-15 19:16:40,792 - INFO - Images will be saved to: images\17_Egypt
+2025-07-15 19:16:40,792 - INFO - Loading search page for Egypt...
+2025-07-15 19:16:40,793 - ERROR - Error downloading images for Egypt: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,794 - INFO - Downloading images for country: Turkey (ID: 18)
+2025-07-15 19:16:40,797 - INFO - Images will be saved to: images\18_Turkey
+2025-07-15 19:16:40,797 - INFO - Loading search page for Turkey...
+2025-07-15 19:16:40,799 - ERROR - Error downloading images for Turkey: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,799 - INFO - Downloading images for country: Greece (ID: 19)
+2025-07-15 19:16:40,800 - INFO - Images will be saved to: images\19_Greece
+2025-07-15 19:16:40,800 - INFO - Loading search page for Greece...
+2025-07-15 19:16:40,801 - ERROR - Error downloading images for Greece: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,802 - INFO - Downloading images for country: Thailand (ID: 20)
+2025-07-15 19:16:40,802 - INFO - Images will be saved to: images\20_Thailand
+2025-07-15 19:16:40,802 - INFO - Loading search page for Thailand...
+2025-07-15 19:16:40,804 - ERROR - Error downloading images for Thailand: Message: tab crashed
+  (Session info: chrome=138.0.7204.51)
+Stacktrace:
+	GetHandleVerifier [0x0x4d44a3+62419]
+	GetHandleVerifier [0x0x4d44e4+62484]
+	(No symbol) [0x0x311f90]
+	(No symbol) [0x0x302b80]
+	(No symbol) [0x0x300b64]
+	(No symbol) [0x0x30162d]
+	(No symbol) [0x0x30ddc9]
+	(No symbol) [0x0x31f2b5]
+	(No symbol) [0x0x324ce6]
+	(No symbol) [0x0x301c6d]
+	(No symbol) [0x0x31eb43]
+	(No symbol) [0x0x3a0789]
+	(No symbol) [0x0x37f266]
+	(No symbol) [0x0x34e852]
+	(No symbol) [0x0x34f6f4]
+	GetHandleVerifier [0x0x744793+2619075]
+	GetHandleVerifier [0x0x73fbaa+2599642]
+	GetHandleVerifier [0x0x4fb04a+221050]
+	GetHandleVerifier [0x0x4eb2c8+156152]
+	GetHandleVerifier [0x0x4f1c7d+183213]
+	GetHandleVerifier [0x0x4dc388+94904]
+	GetHandleVerifier [0x0x4dc512+95298]
+	GetHandleVerifier [0x0x4c766a+9626]
+	BaseThreadInitThunk [0x0x75f4fcc9+25]
+	RtlGetAppContainerNamedObjectPath [0x0x779b82ae+286]
+	RtlGetAppContainerNamedObjectPath [0x0x779b827e+238]
+
+2025-07-15 19:16:40,804 - INFO - Download completed. Total images downloaded: 15
+2025-07-15 19:16:42,987 - INFO - WebDriver closed
